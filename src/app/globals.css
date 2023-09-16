@@ -2,26 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* fonts.css */
+@font-face {
+  font-family: 'SF Pro Display', sans-serif;
+  src: url('/public/fonts/sf-pro-bold.woff2') format('WOFF2');
+  font-weight: normal;
+  font-style: normal;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+:root {
+  --bg: #F2F5F9;
 }
+
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  min-height: 100vh;
+    background: var(--bg);
+    color: var(--fg);
+    line-height: 1.5;
+    background-image: radial-gradient(#eaeaea 1px, transparent 1px),
+      radial-gradient(#eaeaea 1px, transparent 1px);
+    background-position: 0 0, 25px 25px;
+    background-attachment: fixed;
+    background-size: 50px 50px;
+  
+    /* Hack */
+    overflow-x: hidden;
 }
+
