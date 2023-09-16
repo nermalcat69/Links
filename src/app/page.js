@@ -48,7 +48,7 @@ export default function Home() {
             key={index}
             href={link.url}
             target={link.target}
-            className="h-14 w-14 sm:h-16 sm:w-16 lg:h-20 lg:w-20 text-slate-600 bg-white shadow-sm hover:text-blue-600 text-2xl sm:text-3xl rounded-xl flex items-center justify-center border border-slate-200 hover:shadow-md duration-200"
+            className="h-14 w-14 sm:h-16 sm:w-16 lg:h-20 lg:w-20 text-slate-500 bg-white shadow-sm hover:text-red-500 text-2xl sm:text-3xl rounded-xl flex items-center justify-center border border-slate-200 hover:shadow-md duration-200"
           >
             {link.icon}
           </a>
