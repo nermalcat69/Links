@@ -12,25 +12,25 @@ export default function Home() {
   const links = [
 {
       name: "LinkedIn",
-      url: "https://www.linkedin.com/in/jordienric/",
+      url: "https://www.linkedin.com/",
       icon: <FaLinkedinIn />,
       target: "_blank",
     },
     {
       name: "GitHub",
-      url: "https://github.com/jordienr",
+      url: "https://github.com/nermalcat69",
       icon: <FaGithubAlt />,
       target: "_blank",
     },
     {
       name: "Twitter",
-      url: "https://twitter.com/jordienr",
+      url: "https://twitter.com/",
       icon: <FaTwitter />,
       target: "_blank",
     },
     {
       name: "Instagram",
-      url: "https://instagram.com/jordi.enr",
+      url: "https://instagram.com/",
       icon: <FaInstagram />,
       target: "_blank",
     },
