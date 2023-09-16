@@ -6,8 +6,7 @@ import {
   FaTwitter,
   FaGithubAlt,
 } from "react-icons/fa";
-  
-  
+    
 export default function Home() {
 
   const links = [
@@ -60,11 +59,11 @@ export default function Home() {
           <h2 className='text-3xl md:text-4xl font-semibold'> Join My <span className='text-white bg-orange-500 p-1'>Discord</span> Server </h2>
           <div className='flex flex-row mt-12 p-10 bg-white shadow-sm rounded-xl '>
             
-            <Image className=' rounded-full'
+            <Image className='rounded-full'
                   src="/public/command.png"
                   width="50"
                   height="50"
-                  alt="Picture of the author"
+                  alt="Command Discord Server"
             />
             <h3 className='text-2xl md:text-3xl font-semibold basis-1/4'>Command</h3>
             <span><a className='bg-black text-white basis-1/2' href=''>Join</a></span>
