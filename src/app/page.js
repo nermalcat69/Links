@@ -57,7 +57,7 @@ export default function Home() {
           <span className="mt-12 bg-white hover border-slate-200 p-4  font-medium text-sm md:text-lg max-w-xl text-gray-600 text-center rounded-xl shadow-sm hover:shadow-md duration-200">Hey 🫡, I'm Nermal, I'm a MERN Stack Programmer / Financial Market Trader 🤌</span>
         <div className='mt-14'>
           <h2 className='text-2xl sm:text-3xl lg:text-4xl font-semibold'> Join My <span className='text-white bg-orange-500 hover:bg-orange-600 duration-100 cursor-pointer p-1'>Discord</span> Server </h2>
-          <div className='flex mt-12 p-6 lg:p-10 bg-white shadow-sm hover:shadow-md duration-200 rounded-xl '>
+          <div className='flex mt-12 p-4 lg:p-10 bg-white shadow-sm hover:shadow-md duration-200 rounded-xl '>
             
             <Image className='rounded-full justify-start'
                   src="/command.png"
@@ -66,14 +66,14 @@ export default function Home() {
                   alt="Command Discord Server"
                   draggable={false} 
             />
-            <h3 className='text-md md:text-2xl lg:text-3xl ml-5 md:ml-7 self-center font-semibold '>Command</h3>
-            <span className='flex flex-grow justify-end self-center '><a className=' bg-black hover:bg-gray-800 duration-100 py-2 px-3 sm:px-8 text-sm sm:text-2xl  rounded-3xl font-medium text-white ' href=''>Join</a></span>
+            <h3 className='text-md md:text-2xl lg:text-3xl ml-5 md:ml-7 self-center font-semibold mr-2 '>Command</h3>
+            <span className='flex flex-grow justify-end self-center '><a className=' bg-black hover:bg-gray-800 duration-100 py-2 px-3 sm:px-8 text-xs sm:text-2xl  rounded-3xl font-medium text-white ml-2 mr-2 ' href=''>Join</a></span>
           </div>
         </div>
         <div className='pt-10'>
-          <iframe className='rounded-3xl h-56 bg-red-500 w-full mx-auto' src="https://open.spotify.com/embed/playlist/7x1Mud6oTcl7TLGHDaRhiY?utm_source=generator&theme=0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          <iframe className='rounded-3xl h-56 w-full ' src="https://open.spotify.com/embed/playlist/7x1Mud6oTcl7TLGHDaRhiY?utm_source=generator&theme=0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </div>
-        <div className='mx-auto mt-8 '>
+        <div className='mx-auto '>
         <Image className='rounded-lg shadow-md hover:shadow-lgmd duration-200 justify-start'
               src="/mahdi.png"
               width="541"
