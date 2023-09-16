@@ -48,31 +48,41 @@ export default function Home() {
             key={index}
             href={link.url}
             target={link.target}
-            className="h-20 w-20 text-slate-600 bg-white shadow-sm hover:text-blue-600 text-3xl rounded-xl flex items-center justify-center border border-slate-200"
+            className="h-14 w-14 sm:h-16 sm:w-16 lg:h-20 lg:w-20 text-slate-600 bg-white shadow-sm hover:text-blue-600 text-2xl sm:text-3xl rounded-xl flex items-center justify-center border border-slate-200 hover:shadow-md duration-200"
           >
             {link.icon}
           </a>
         ))}
         </div> 
-          <span className="mt-12 bg-white border-slate-200 p-6 font-medium text-lg max-w-xl text-gray-600 text-start rounded-xl shadow-sm">Hey 🫡, I'm Nermal, I'm a MERN Stack Programmer / Financial market trader 🤌</span>
+          <span className="mt-12 bg-white hover border-slate-200 p-4  font-medium text-sm md:text-lg max-w-xl text-gray-600 text-center rounded-xl shadow-sm hover:shadow-md duration-200">Hey 🫡, I'm Nermal, I'm a MERN Stack Programmer / Financial Market Trader 🤌</span>
         <div className='mt-14'>
-          <h2 className='text-3xl md:text-4xl font-semibold'> Join My <span className='text-white bg-orange-500 p-1'>Discord</span> Server </h2>
-          <div className='flex mt-12 p-10 bg-white shadow-sm rounded-xl '>
+          <h2 className='text-2xl sm:text-3xl lg:text-4xl font-semibold'> Join My <span className='text-white bg-orange-500 hover:bg-orange-600 duration-100 cursor-pointer p-1'>Discord</span> Server </h2>
+          <div className='flex mt-12 p-6 lg:p-10 bg-white shadow-sm hover:shadow-md duration-200 rounded-xl '>
             
-            <img className='rounded-full justify-start'
+            <Image className='rounded-full justify-start'
                   src="command.png"
-                  width="60"
-                  height="60"
+                  width="55"
+                  height="55"
                   alt="Command Discord Server"
                   draggable={false} 
             />
-            <h3 className='text-2xl md:text-3xl ml-5 md:ml-7 self-center font-semibold '>Command</h3>
-            <span className='flex flex-grow justify-end self-center '><a className=' bg-black py-2 px-8 text-2xl rounded-3xl text-white ' href=''>Join</a></span>
+            <h3 className='text-xl md:text-2xl lg:text-3xl ml-5 md:ml-7 self-center font-semibold '>Command</h3>
+            <span className='flex flex-grow justify-end self-center '><a className=' bg-black hover:bg-gray-800 duration-100 py-2 px-3 sm:px-8 text-md sm:text-2xl  rounded-3xl font-medium text-white ' href=''>Join</a></span>
           </div>
-          </div>
+        </div>
+        <div className='justify-center mt-12 '>
+                   <Image className='rounded-lg shadow-md hover:shadow-lgmd duration-200 justify-start'
+                  src="mahdi.png"
+                  width="541"
+                  alt="sky pic"
+                  draggable={false} 
+          />
+          <span className='bg-white p-2 mt-2 rounded-lg text-xs text-center font-light'>Photo by <a className='text-orange-500 hover:text-orange-600 duration-100 font-medium' href=''>Md Mahdi</a> on <a className='text-orange-500 hover:text-orange-600 duration-100 font-medium' href=''>Unsplash</a> </span>
+        </div>
       </div>
 
-     
+      
+
   
     </main>
   )
