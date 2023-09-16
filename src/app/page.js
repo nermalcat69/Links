@@ -57,16 +57,16 @@ export default function Home() {
           <span className="mt-12 bg-white border-slate-200 p-6 font-medium text-lg max-w-xl text-gray-600 text-start rounded-xl shadow-sm">Hey 🫡, I'm Nermal, I'm a MERN Stack Programmer / Financial market trader 🤌</span>
         <div className='mt-14'>
           <h2 className='text-3xl md:text-4xl font-semibold'> Join My <span className='text-white bg-orange-500 p-1'>Discord</span> Server </h2>
-          <div className='flex flex-row mt-12 p-10 bg-white shadow-sm rounded-xl '>
+          <div className='flex mt-12 p-10 bg-white shadow-sm rounded-xl '>
             
-            <img className='rounded-full'
+            <img className='rounded-full justify-start'
                   src="command.png"
-                  width="50"
-                  height="50"
+                  width="60"
+                  height="60"
                   alt="Command Discord Server"
-            ></img>
-            <h3 className='text-2xl md:text-3xl font-semibold basis-1/4'>Command</h3>
-            <span><a className='bg-black text-white basis-1/2' href=''>Join</a></span>
+            />
+            <h3 className='text-2xl md:text-3xl ml-5 md:ml-7 self-center font-semibold '>Command</h3>
+            <span className=' self-center gap-4 '><a className=' bg-black py-3 px-7 text-2xl rounded-3xl text-white ' href=''>Join</a></span>
           </div>
           </div>
       </div>
