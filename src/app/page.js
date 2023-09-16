@@ -60,24 +60,29 @@ export default function Home() {
           <div className='flex mt-12 p-6 lg:p-10 bg-white shadow-sm hover:shadow-md duration-200 rounded-xl '>
             
             <Image className='rounded-full justify-start'
-                  src="command.png"
+                  src="/command.png"
                   width="55"
                   height="55"
                   alt="Command Discord Server"
                   draggable={false} 
             />
-            <h3 className='text-xl md:text-2xl lg:text-3xl ml-5 md:ml-7 self-center font-semibold '>Command</h3>
-            <span className='flex flex-grow justify-end self-center '><a className=' bg-black hover:bg-gray-800 duration-100 py-2 px-3 sm:px-8 text-md sm:text-2xl  rounded-3xl font-medium text-white ' href=''>Join</a></span>
+            <h3 className='text-md md:text-2xl lg:text-3xl ml-5 md:ml-7 self-center font-semibold '>Command</h3>
+            <span className='flex flex-grow justify-end self-center '><a className=' bg-black hover:bg-gray-800 duration-100 py-2 px-3 sm:px-8 text-sm sm:text-2xl  rounded-3xl font-medium text-white ' href=''>Join</a></span>
           </div>
         </div>
-        <div className='justify-center mt-12 '>
-                   <Image className='rounded-lg shadow-md hover:shadow-lgmd duration-200 justify-start'
-                  src="mahdi.png"
-                  width="541"
-                  alt="sky pic"
-                  draggable={false} 
+        <div className='pt-10'>
+          <iframe className='rounded-3xl h-56 bg-red-500 w-full mx-auto' src="https://open.spotify.com/embed/playlist/7x1Mud6oTcl7TLGHDaRhiY?utm_source=generator&theme=0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+        <div className='mx-auto mt-8 '>
+        <Image className='rounded-lg shadow-md hover:shadow-lgmd duration-200 justify-start'
+              src="/mahdi.png"
+              width="541"
+              height="341"
+              alt="sky pic"
+              draggable={false} 
+              loading='lazy'
           />
-          <span className='bg-white p-2 mt-2 rounded-lg text-xs text-center font-light'>Photo by <a className='text-orange-500 hover:text-orange-600 duration-100 font-medium' href=''>Md Mahdi</a> on <a className='text-orange-500 hover:text-orange-600 duration-100 font-medium' href=''>Unsplash</a> </span>
+          <span className=' mt-4 rounded-lg text-xs text-center font-light'>Photo by <a className='text-orange-500 hover:text-orange-600 duration-100 font-medium' href=''>Md Mahdi</a> on <a className='text-orange-500 hover:text-orange-600 duration-100 font-medium' href=''>Unsplash</a> </span>
         </div>
       </div>
 
