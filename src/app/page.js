@@ -56,7 +56,7 @@ export default function Home() {
         </div> 
           <span className="mt-12 bg-white hover border-slate-200 p-4  font-medium text-sm md:text-lg max-w-xl text-gray-600 text-center rounded-xl shadow-sm hover:shadow-md duration-200">Hey 🫡, I'm Nermal, I'm a MERN Stack Programmer / Financial Market Trader 🤌</span>
         <div className='mt-14'>
-          <h2 className='text-2xl sm:text-3xl lg:text-4xl font-semibold'> Join My <span className='text-white bg-orange-500 hover:bg-orange-600 duration-100 cursor-pointer p-1'>Discord</span> Server </h2>
+          <h2 className='text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold'> Join My <span className='text-white bg-orange-500 hover:bg-orange-600 duration-100 cursor-pointer p-1'>Discord</span> Server </h2>
           <div className='flex mt-12 p-4 lg:p-10 bg-white shadow-sm hover:shadow-md duration-200 rounded-xl '>
             
             <Image className='rounded-full justify-start'
