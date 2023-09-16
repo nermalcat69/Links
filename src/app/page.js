@@ -67,7 +67,7 @@ export default function Home() {
                   draggable={false} 
             />
             <h3 className='text-2xl md:text-3xl ml-5 md:ml-7 self-center font-semibold '>Command</h3>
-            <span className=' self-center gap-4 '><a className=' bg-black py-3 px-7 text-2xl rounded-3xl text-white ' href=''>Join</a></span>
+            <span className='flex flex-grow justify-end self-center '><a className=' bg-black py-2 px-8 text-2xl rounded-3xl text-white ' href=''>Join</a></span>
           </div>
           </div>
       </div>
