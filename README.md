@@ -1,34 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌐 Your Website's Name
+
+Welcome to the GitHub repository of [Your Website's Name](https://your-website-url.com)! This project is a web page alternative to Linktree, created using Next.js and styled with Tailwind CSS.
+
+## 📖 Table of Contents
+
+- [Features](#features)
+- [Inspiration](#inspiration)
+- [Demo](#demo)
+- [Getting Started](#getting-started)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- Showcase multiple links and information in a single, easy-to-access page.
+- Customizable design with Tailwind CSS.
+- Integration with Discord server links.
+- Easy to deploy on platforms like Vercel or Netlify.
+
+## Inspiration
+
+This project was inspired by [Jordi Enric](http://jordienric.com/), and you can find his GitHub repository [here](https://github.com/jordienr). Jordi's work served as a foundation for this project, and we thank him for the inspiration.
+
+## Demo
+
+You can check out a live demo of this project [here](https://your-website-url.com).
 
 ## Getting Started
 
-First, run the development server:
+To get started with this project, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+1. Clone this repository: `git clone https://github.com/your-username/your-repo-name.git`.
+2. Install the required dependencies: `npm install`.
+3. Customize the content in the text file or code to match your information and preferences.
+4. Run the project locally: `npm run dev`.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Feel free to modify and adapt the project to suit your needs.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Contributing
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Contributions are welcome! If you have any ideas for improvements or find any issues, please open an issue or submit a pull request.
 
-## Learn More
+## License
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the [MIT License](LICENSE).
