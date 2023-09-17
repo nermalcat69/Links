@@ -44,7 +44,7 @@ You can check out a live demo of this project **[here](https://arjunlinks.vercel
 
 To get started with this project, follow these steps:
 
-1. Clone this repository: `git clone https://github.com/your-username/your-repo-name.git`.
+1. Clone this repository: `git clone https://github.com/nermalcat69/ArjunLinks`.
 2. Install the required dependencies: `npm install`.
 3. Customize the content in the text file or code to match your information and preferences.
 4. Build the project locally: `npm run build`.
