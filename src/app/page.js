@@ -69,7 +69,7 @@ export default function Home() {
               />
               <h3 className=' pl-2 text-xs sm:text-2xl lg:text-3xl self-center font-semibold  '>Command</h3>
               </span>
-            <span className='flex flex-grow justify-end self-center '><a className=' bg-black hover:bg-gray-800 duration-100 py-2 px-2 sm:px-8 text-xs sm:text-2xl  rounded-3xl font-medium text-white ' href=''>Join</a></span>
+            <span className='flex flex-grow justify-end self-center '><a className=' bg-black hover:bg-gray-800 duration-100 py-2 px-2 sm:px-8 text-xs sm:text-2xl  rounded-3xl font-medium text-white ' target='_blank' href='https://discord.gg/ruFEzFfruX'>Join</a></span>
             </div>
           </div>
         </div>
@@ -83,7 +83,7 @@ export default function Home() {
               draggable={false} 
               loading='lazy'
           />
-          <span className=' mt-4 rounded-lg text-xs text-center font-light'>Photo by <a className='text-orange-500 hover:text-orange-600 duration-100 font-medium' href=''>Md Mahdi</a> on <a className='text-orange-500 hover:text-orange-600 duration-100 font-medium' href=''>Unsplash</a> </span>
+          <span className=' mt-4 rounded-lg text-xs text-center font-light'>Photo by <a className='text-orange-500 hover:text-orange-600 duration-100 font-medium' target='_blank' href='https://unsplash.com/@mahdi17'>Md Mahdi</a> on <a className='text-orange-500 hover:text-orange-600 duration-100 font-medium' target='_blank' href='https://unsplash.com'>Unsplash</a> </span>
         </div>
       </div>
           <div className='mt-2 max-w-md mx-auto'>
