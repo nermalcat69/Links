@@ -1,6 +1,6 @@
-# 🌐 Your Website's Name
+# 🌐 ArjunLinks
 
-Welcome to the GitHub repository of [Your Website's Name](https://your-website-url.com)! This project is a web page alternative to Linktree, created using Next.js and styled with Tailwind CSS.
+Welcome to the GitHub repository of [Your Website's Name](https://arjunlinks.vercel.app)! This project is a web page alternative to Linktree, created using Next.js and styled with Tailwind CSS.
 
 ## 📖 Table of Contents
 
@@ -20,11 +20,11 @@ Welcome to the GitHub repository of [Your Website's Name](https://your-website-u
 
 ## Inspiration
 
-This project was inspired by [Jordi Enric](http://jordienric.com/), and you can find his GitHub repository [here](https://github.com/jordienr). Jordi's work served as a foundation for this project, and we thank him for the inspiration.
+This project was inspired by [Jordi Enric](http://jordienric.com/), and you can find his GitHub [here](https://github.com/jordienr). Jordi's work served as a foundation for this project, and we thank him for the inspiration.
 
 ## Demo
 
-You can check out a live demo of this project [here](https://your-website-url.com).
+You can check out a live demo of this project **[here](https://arjunlinks.vercel.app)**.
 
 ## Getting Started
 
@@ -39,7 +39,7 @@ Feel free to modify and adapt the project to suit your needs.
 
 ## Contributing
 
-Contributions are welcome! If you have any ideas for improvements or find any issues, please open an issue or submit a pull request.
+Contributions are welcome! If you have any ideas for improvements or find any issues, please open an **issue**
 
 ## License
 
