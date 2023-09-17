@@ -30,3 +30,7 @@ body {
     overflow-x: hidden;
 }
 
+.mobile-image {
+  max-width: 20px;
+    height: auto;
+}
