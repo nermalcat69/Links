@@ -8,7 +8,6 @@ import {
 } from "react-icons/fa";
     
 export default function Home() {
-    const isMobile = window.innerWidth <= 768; // Define your breakpoint here
 
   const links = [
 {
@@ -61,12 +60,11 @@ export default function Home() {
           <div className='mx-auto max-w-md p-3 mt-6 md:mt-10 justify-center bg-white shadow-sm hover:shadow-md duration-200 rounded-xl '>
             <div className='flex items-center'>
               <span className='flex items-center'>
-              <Image
+              <Image className='rounded-full'
                 width="50"
                 height="50"
                   src="/command.png"
                   alt="Command Discord Server"
-                 className={'rounded-full ' + (isMobile ? 'mobile-image' : '')}
                   draggable={false} 
               />
               <h3 className=' pl-2 text-xs sm:text-2xl lg:text-3xl self-center font-semibold  '>Command</h3>
