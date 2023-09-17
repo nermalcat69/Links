@@ -24,13 +24,13 @@ export default function Home() {
     },
     {
       name: "Twitter",
-      url: "https://twitter.com/",
+      url: "https://twitter.com/JsAditya",
       icon: <FaTwitter />,
       target: "_blank",
     },
     {
       name: "Instagram",
-      url: "https://instagram.com/",
+      url: "http://instagram.com/arjun.t17/",
       icon: <FaInstagram />,
       target: "_blank",
     },
