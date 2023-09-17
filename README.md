@@ -1,6 +1,6 @@
 # 🌐 ArjunLinks
 
-Welcome to the GitHub repository of [Your Website's Name](https://arjunlinks.vercel.app)! This project is a web page alternative to Linktree, created using Next.js and styled with Tailwind CSS.
+Welcome to the GitHub repository of [Your Website's Name](https://arjunlinks.vercel.app)! This project is a web page alternative to Linktree, created using **Next.js** and styled with **Tailwind CSS**.
 
 ## 📖 Table of Contents
 
@@ -13,10 +13,13 @@ Welcome to the GitHub repository of [Your Website's Name](https://arjunlinks.ver
 
 ## Features
 
-- Showcase multiple links and information in a single, easy-to-access page.
-- Customizable design with Tailwind CSS.
-- Integration with Discord server links.
-- Easy to deploy on platforms like Vercel or Netlify.
+- Showcase your multiple links and information in a single, easy-to-access page.
+- Customizable design with **Tailwind CSS**.
+- Integration with **Discord Server** links.
+- Integrated a **Spotify Playlist**
+- Easy to deploy on platforms like **Vercel** or **Netlify**.
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fnermalcat69%2FArjunLinks%2Ftree%2Fmain)
 
 ## Inspiration
 
