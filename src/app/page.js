@@ -39,7 +39,7 @@ export default function Home() {
 
   return (
     <main className=" pb-10 max-w-4xl mx-auto">
-      <div class="flex flex-col mx-auto p-20 text-center">
+      <div class="flex flex-col mx-auto p-10 text-center">
         <span className='text-4xl text-orange-500'>⌘</span>
         <h1 className='font-bold pt-3 text-xl sm:text-4xl md:text-5xl'>Arjun Aditya</h1>
         <h2 className='text-slate-500 pt-2 font-medium text-md md:text-lg'>Full Stack Engineer</h2>
