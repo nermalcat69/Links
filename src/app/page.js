@@ -38,7 +38,7 @@ export default function Home() {
   ];
 
   return (
-    <main className=" pb-10 max-w-4xl mx-auto">
+    <main className=" pb-2 max-w-4xl mx-auto">
       <div class="flex flex-col mx-auto p-10 text-center">
         <span className='text-4xl text-orange-500'>⌘</span>
         <h1 className='font-bold pt-3 text-xl sm:text-4xl md:text-5xl'>Arjun Aditya</h1>
@@ -56,9 +56,9 @@ export default function Home() {
         ))}
         </div> 
           <span className="mt-12 mx-auto bg-white hover border-slate-200 p-4  font-medium text-sm md:text-lg max-w-xl text-gray-600 text-center rounded-xl shadow-sm hover:shadow-md duration-200">Hey 🫡, I'm Nermal, I'm a MERN Stack Programmer / Financial Market Trader 🤌</span>
-        <div className='mt-14'>
-          <h2 className='text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold'> Join My <span className='text-white bg-orange-500 hover:bg-orange-600 duration-100 cursor-pointer p-1'>Discord</span> Server </h2>
-          <div className='mx-auto max-w-md p-3 mt-12 justify-center bg-white shadow-sm hover:shadow-md duration-200 rounded-xl '>
+        <div className='mt-8 md:mt-14'>
+          <h2 className='text-md sm:text-2xl md:text-3xl lg:text-4xl font-semibold'> Join My <span className='text-white bg-orange-500 hover:bg-orange-600 duration-100 cursor-pointer p-1'>Discord</span> Server </h2>
+          <div className='mx-auto max-w-md p-3 mt-6 md:mt-10 justify-center bg-white shadow-sm hover:shadow-md duration-200 rounded-xl '>
             <div className='flex items-center'>
               <span className='flex items-center'>
               <Image
@@ -75,12 +75,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className='mt-8  mx-auto'>
-          <iframe className='rounded-2xl p-2' 
-             width="100%" height="100%" src="https://open.spotify.com/embed/playlist/7x1Mud6oTcl7TLGHDaRhiY?utm_source=generator&theme=0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-        </div>
-        <div className='mx-auto '>
-        <Image className='rounded-lg shadow-md hover:shadow-lgmd duration-200 justify-start'
+
+        <div className='mx-auto pt-6 '>
+        <Image className=' rounded-lg shadow-md hover:shadow-lgmd duration-200 justify-start'
               src="/mahdi.png"
               width="541"
               height="341"
@@ -91,10 +88,12 @@ export default function Home() {
           <span className=' mt-4 rounded-lg text-xs text-center font-light'>Photo by <a className='text-orange-500 hover:text-orange-600 duration-100 font-medium' href=''>Md Mahdi</a> on <a className='text-orange-500 hover:text-orange-600 duration-100 font-medium' href=''>Unsplash</a> </span>
         </div>
       </div>
-
-      
-
-  
+          <div className='mt-2 max-w-md mx-auto'>
+          <div className='embed-container'>
+          <iframe className='rounded-2xl p-2' 
+             width="100%" height="100%" src="https://open.spotify.com/embed/playlist/7x1Mud6oTcl7TLGHDaRhiY?utm_source=generator&theme=0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </div>
+        </div>
     </main>
   )
 }
