@@ -1,4 +1,4 @@
-# 😝 ArjunLinks
+# 😝 Links
 
 Welcome to the GitHub repository of 🤪 [ArjunLinks](https://arjunlinks.vercel.app)! This project is a web page alternative to **Linktree**.
 
