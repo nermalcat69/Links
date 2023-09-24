@@ -86,12 +86,6 @@ export default function Home() {
           <span className=' mt-4 rounded-lg text-xs text-center font-light'>Photo by <a className='text-orange-500 hover:text-orange-600 duration-100 font-medium' target='_blank' href='https://unsplash.com/@mahdi17'>Md Mahdi</a> on <a className='text-orange-500 hover:text-orange-600 duration-100 font-medium' target='_blank' href='https://unsplash.com'>Unsplash</a> </span>
         </div>
       </div>
-          <div className='mt-2 max-w-md mx-auto'>
-          <div className='embed-container'>
-          <iframe className='rounded-2xl p-2' 
-             width="100%" height="100%" src="https://open.spotify.com/embed/playlist/7x1Mud6oTcl7TLGHDaRhiY?utm_source=generator&theme=0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-          </div>
-        </div>
     </main>
   )
 }
