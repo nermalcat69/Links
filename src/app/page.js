@@ -74,18 +74,13 @@ export default function Home() {
           </div>
         </div>
 
-        <div className='mx-auto pt-6 '>
-        <Image className=' rounded-lg shadow-md hover:shadow-lgmd duration-200 justify-start'
-              src="/mahdi.png"
-              width="541"
-              height="341"
-              alt="sky pic"
-              draggable={false} 
-              loading='lazy'
-          />
-          <span className=' mt-4 rounded-lg text-xs text-center font-light'>Photo by <a className='text-orange-500 hover:text-orange-600 duration-100 font-medium' target='_blank' href='https://unsplash.com/@mahdi17'>Md Mahdi</a> on <a className='text-orange-500 hover:text-orange-600 duration-100 font-medium' target='_blank' href='https://unsplash.com'>Unsplash</a> </span>
+        <div className='mt-6 max-w-md mx-auto'>
+          <div className='embed-container'>
+          <iframe className='rounded-2xl p-2' 
+             width="100%" height="100%" src="https://open.spotify.com/embed/playlist/7x1Mud6oTcl7TLGHDaRhiY?utm_source=generator&theme=0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </div>
       </div>
+    </div>
     </main>
   )
 }
